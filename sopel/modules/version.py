@@ -81,4 +81,4 @@ def ctcp_time(bot, trigger):
 
 @sopel.module.commands('changes', 'commits', 'changelog')
 def changelog(bot, trigger):
-    bot.say(trigger.nick + ', my changelog can be found at https://goo.gl/NWIv5o''My latest commit is ' %git_info())
+    bot.say(trigger.nick + ', my changelog can be found at https://goo.gl/NWIv5o''My latest commit is' %git_info())
